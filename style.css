@@ -1,0 +1,548 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #161515e8;
+}
+
+.start{
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    padding: 0 20px;
+}
+
+.navbar h1{
+    color: chocolate;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-right: 5vw;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    list-style: none;
+    color: white;
+}
+
+.nav li:hover{
+    text-decoration: underline chocolate;
+    text-underline-offset: 13px;
+    text-decoration-thickness: 2px;
+    color: chocolate;
+    scale: 1.2;
+}
+
+.shape{
+    position: relative;
+}
+
+.header{
+    width: 28vw;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.header p{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color:wheat;
+}
+
+.header .career{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(182, 90, 24);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header h4{
+    font-weight: lighter;
+    color: rgba(245, 245, 220, 0.473);
+}
+
+.header .goal{
+    font-weight: lighter;
+    color:  rgba(245, 245, 220, 0.473);
+    line-height:1.4;
+}
+
+
+#sw-js-blob-svg{
+    position: absolute;
+    width: 400px;
+    top: 3vh;
+    left: 20vw;
+    z-index: -9999;
+    opacity: 90%;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.cod{
+    border-radius:100px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.cod img{
+    width: 600px;
+    margin-top: 20px;
+    border: 8px double rgb(219, 115, 40);
+    border-radius: 100px;
+    align-items: center;
+}
+
+.cod img:hover{
+    scale: 1.1;
+    transition: 1.0s;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+
+}
+
+.about img{
+    width: 500px;
+    height: 500px;
+    margin-top: 4%;
+    border: 8px double rgb(219, 115, 40);
+    border-radius: 100px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.about img:hover{
+    scale: 1.1;
+    transition: 1.0s;
+}
+
+.self{
+    width: 350px;
+    height: 300px;
+    margin-top: 7%;
+    margin-right: 20%;
+}
+
+.self p{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: wheat;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.self h4{
+    color:  rgba(245, 245, 220, 0.473);
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.cssbuttons-io-button {
+    background: chocolate;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #4da69a;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    margin-top: 10px;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: chocolate;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+
+.self hr {
+    margin-top: 5%;
+    margin-left: 10px;
+    color: rgba(245, 245, 220, 0.123);
+    opacity: 40%;
+    width: 300px;
+}
+
+.run{
+    position: relative;
+}
+
+.prop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.prop p{
+    color: wheat;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 5%;
+}
+
+.run hr{
+    position: absolute;
+    width: 50%;
+    top: 45%;
+    left: 29%;
+    color: rgba(245, 245, 220, 0.123);
+    opacity: 40%;
+}
+
+.prop button {
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #303030;
+    background: #212121;
+    color: chocolate;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 5%;
+}
+
+.prop button:hover {
+    box-shadow: 0 0 10px chocolate, 0 0 25px rgb(214, 116, 46), 0 0 50px chocolate;
+    transition-delay: 0.6s;
+}
+
+.prop button span {
+    position: absolute;
+}
+
+.prop button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ffa600);
+}
+
+.prop button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+}
+
+.prop button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #eef11b);
+}
+
+.prop button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+}
+
+.prop button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #f55516);
+}
+
+.prop button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+}
+
+.prop button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #9edf27);
+}
+
+.prop button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+}
+
+.prop button:active {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
+    transition: 0.1s;
+}
+
+.prop button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: chocolate;
+    height: 10vh;
+}
+
+.subject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 600px;
+    margin-left: 5%;
+}
+
+.subject li{
+    font-weight: bolder;
+    font-size: 20px;
+    color: wheat;
+}
+
+.subject li:hover{
+    scale: 1.2;
+    color: rgb(155, 36, 0);
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+   align-items: center;
+   margin-right: 60px;
+}
+
+.social i{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:375px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 1vh;
+        width: 100vw;
+        padding: 0 20px;
+    }
+    
+    .navbar h1{
+        color: chocolate;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    
+    .nav{
+       display: none;
+    }
+
+    .flex{
+        display:grid;
+    }
+
+    .cod{
+        border-radius:100px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    .cod img{
+        width: 300px;
+        margin-top: 20px;
+        border: 8px double rgb(219, 115, 40);
+        border-radius: 100px;
+        align-items: center;
+    }
+
+    .header{
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+
+    .header p{
+        font-size: 35px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color:wheat;
+        margin-left: 10%;
+    }
+    
+    .header .career{
+        font-weight: bolder;
+        font-size: 25px;
+        color: rgb(182, 90, 24);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .header h4{
+        font-weight: lighter;
+        color: rgba(245, 245, 220, 0.473);
+    }
+    
+    .header .goal{
+        font-weight: lighter;
+        color:  rgba(245, 245, 220, 0.473);
+        line-height:1.4;
+    }
+
+    #sw-js-blob-svg{
+        display: none;
+    }
+    .about{
+        display: grid;
+        justify-content: space-between;
+        margin-top: 10%;
+    
+    }
+    
+    .about img{
+        width: 300px;
+        height: 300px;
+        margin-top: 4%;
+        border: 8px double rgb(219, 115, 40);
+        border-radius: 100px;
+        align-items: center;
+        margin-left: 8%;
+    }
+
+    .self{
+        width: 300px;
+        height: 300px;
+        margin-top: 7%;
+        margin-left: 8%;
+        margin-bottom: 25%;
+    }
+    
+    .cssbuttons-io-button {
+        background: chocolate;
+        color: white;
+        font-family: inherit;
+        padding: 0.35em;
+        padding-left: 1.2em;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 1.6em -0.6em #4da69a;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding-right: 3.3em;
+        margin-top: 10px;
+    }
+
+    .prop{
+        display: none;
+    }
+    
+    .prop p{
+       display: none;
+    }
+
+    .prop button {
+       display: none;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        background: chocolate;
+        height: 20vh;
+        margin-top: 40%;
+    }
+    
+    .subject{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 100vw;
+        margin-left: 5%;
+    }
+
+    .run hr{
+       display: none;
+    }
+
+    .social{
+       display: none;
+    }
+}
