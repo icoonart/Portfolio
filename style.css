@@ -467,7 +467,6 @@ a{
         display: grid;
         justify-content: space-between;
         margin-top: 10%;
-    
     }
     
     .about img{
@@ -485,7 +484,7 @@ a{
         height: 300px;
         margin-top: 7%;
         margin-left: 8%;
-        margin-bottom: 25%;
+        margin-bottom: 40%;
     }
     
     .cssbuttons-io-button {
